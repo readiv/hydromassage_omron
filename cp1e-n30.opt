@@ -180,8 +180,8 @@ BEGIN
  Item[2]:=12;
  Item[3]:=13;
  ItemCount:=4;
- Sumcheck:=48;
- Selected:=21;
+ Sumcheck:=47;
+ Selected:=20;
 END;
 Frame[0]:=
 BEGIN
@@ -204,6 +204,63 @@ BEGIN
 END;
 Frame[1]:=
 BEGIN
+ Norm:="0078 0078 1178 0346";
+ Min:="-001 -001";
+ Path:="C:\temp\omron\cp1e-n30-verDoseBomba.cxp";
+ Access:="PROJECT:!НовыйПроект.Ресурсы.NewResource1.Символы";
+ Type:=3;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+   Extra:=
+   BEGIN
+    Type:="CSymbolTableListCtrlState";
+    Style:=1;
+    NumCols:=7;
+    Width[0]:=150;
+    Width[1]:=90;
+    Width[2]:=100;
+    Width[3]:=1;
+    Width[4]:=84;
+    Width[5]:=48;
+    Width[6]:=200;
+   END;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[2]:=
+BEGIN
+ Norm:="0000 0000 1074 0353";
+ Min:="-001 -001";
+ Access:="PROGRAM:НовыйПроект.Ресурсы.NewResource1.Задачи.NuevoPrograma1!NuevoPrograma1.Символы";
+ Type:=3;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+   Extra:=
+   BEGIN
+    Type:="CSymbolTableListCtrlState";
+    Style:=1;
+    NumCols:=7;
+    Width[0]:=150;
+    Width[1]:=90;
+    Width[2]:=100;
+    Width[3]:=1;
+    Width[4]:=84;
+    Width[5]:=48;
+    Width[6]:=200;
+   END;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[3]:=
+BEGIN
  Norm:="0052 0052 1402 0646";
  Min:="-001 -001";
  Access:="PROGRAM:НовыйПроект.Ресурсы.NewResource1.Задачи.NuevoPrograma1.Сегменты.Enclavamiento_pulsadores!Enclavamiento_pulsadores";
@@ -213,47 +270,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=19;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
-Frame[2]:=
-BEGIN
- Norm:="0130 0130 1458 0702";
- Min:="-001 -001";
- Access:="PROGRAM:НовыйПроект.Ресурсы.NewResource1.Задачи.NuevoPrograma1.Сегменты.Alternancia_bombas_B00_B01!Alternancia_bombas_B00_B01";
- Type:=1;
- Xsplit:=180;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=14;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
-Frame[3]:=
-BEGIN
- Norm:="0156 0156 1484 0728";
- Min:="-001 -001";
- Access:="PROGRAM:НовыйПроект.Ресурсы.NewResource1.Задачи.NuevoPrograma1.Сегменты.Retardos_arranque_bombas00_01!Retardos_arranque_bombas00_01";
- Type:=1;
- Xsplit:=180;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=15;
+   Yscroll:=26;
   END;
   View[1]:=
   BEGIN
@@ -264,9 +281,9 @@ BEGIN
 END;
 Frame[4]:=
 BEGIN
- Norm:="0156 0156 1484 0728";
+ Norm:="0130 0130 1458 0702";
  Min:="-001 -001";
- Access:="PROGRAM:НовыйПроект.Ресурсы.NewResource1.Задачи.NuevoPrograma1.Сегменты.DoseBombaFiltrado!DoseBombaFiltrado";
+ Access:="PROGRAM:НовыйПроект.Ресурсы.NewResource1.Задачи.NuevoPrograma1.Сегменты.Alternancia_bombas_B00_B01!Alternancia_bombas_B00_B01";
  Type:=1;
  Xsplit:=180;
  Views:=
@@ -283,15 +300,16 @@ BEGIN
 END;
 Frame[5]:=
 BEGIN
- Norm:="0078 0078 1406 0650";
+ Norm:="0156 0156 1484 0728";
  Min:="-001 -001";
- Access:="PROGRAM:НовыйПроект.Ресурсы.NewResource1.Задачи.NuevoPrograma1.Сегменты.Filtraciуn!Filtraciуn";
+ Access:="PROGRAM:НовыйПроект.Ресурсы.NewResource1.Задачи.NuevoPrograma1.Сегменты.Retardos_arranque_bombas00_01!Retardos_arranque_bombas00_01";
  Type:=1;
  Xsplit:=180;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=19;
   END;
   View[1]:=
   BEGIN
@@ -301,6 +319,42 @@ BEGIN
  END;
 END;
 Frame[6]:=
+BEGIN
+ Norm:="0052 0052 1152 0320";
+ Min:="-001 -001";
+ Path:="C:\temp\omron\cp1e-n30-verDoseBomba.cxp";
+ Access:="PROJECT:!НовыйПроект.Ресурсы.NewResource1";
+ Type:=6;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[7]:=
+BEGIN
+ Norm:="0156 0156 1484 0728";
+ Min:="-001 -001";
+ Access:="PROGRAM:НовыйПроект.Ресурсы.NewResource1.Задачи.NuevoPrograma1.Сегменты.DoseBombaFiltrado!DoseBombaFiltrado";
+ Type:=1;
+ Xsplit:=180;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=16;
+  END;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
+ END;
+END;
+Frame[8]:=
 BEGIN
  Max:=true;
  Norm:="0104 0104 1432 0676";
@@ -321,7 +375,7 @@ BEGIN
   nViews:=2;
  END;
 END;
-nFrames:=7;
+nFrames:=9;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
